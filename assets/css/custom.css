@@ -1,0 +1,34 @@
+.title-slide {
+  /* background-image: url(/assets/img/slidefront_blank.png); address doesn't work, had to add it to /assets/css */
+  background-image: url(slidefront_blank.png);
+  background-size: 100%;
+  /*background: #000;*/
+  width:100%;
+  height:100%;
+  }
+  
+.title-slide hgroup h1{
+font-family: 'Calibri', sans-serif;
+color: "white";
+}
+
+slide {
+background-image: url(slidepage.png);
+background-size: 100%;
+min-height: 100%;
+  }
+ 
+.slide h1 {
+font-family: Calibri, sans-serif;
+}
+
+.title-slide h1 {color:white;}
+.slide h2 {
+font-family: Calibri, sans-serif;
+color:white;
+}
+
+slides > slide:not(.nobackground):after {
+  content: "" /* removes page numbers */
+}
+  
